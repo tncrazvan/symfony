@@ -1,5 +1,4 @@
 <?php
-// src/Command/CreateUserCommand.php
 namespace App\Commands;
 
 use Symfony\Component\Console\Command\Command;
