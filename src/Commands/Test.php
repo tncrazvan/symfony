@@ -15,7 +15,9 @@ class Test extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $output->writeln("This is a symfony test command.\n");
+
+        $output->writeln("This is a symfony test command!.\n");
+
         return Command::SUCCESS;
     }
 }
